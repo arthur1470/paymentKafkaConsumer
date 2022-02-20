@@ -1,0 +1,27 @@
+{
+    "type": "record",
+    "name": "PaymentBankSlip",
+    "namespace": "br.com.payment",
+    "fields": [
+        {
+            "name": "slipCode",
+            "type": "string"
+        },
+        {
+            "name": "payerName",
+            "type": "string"
+        },
+        {
+            "name": "createdDate",
+            "type": "string"
+        },
+        {
+            "name": "expirationDate",
+            "type": "string"
+        },
+        {
+            "name": "totalAmount",
+            "type": "double"
+        }
+    ]
+}

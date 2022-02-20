@@ -1,0 +1,39 @@
+{
+    "type": "record",
+    "name": "PaymentCreditCard",
+    "namespace": "br.com.payment",
+    "fields": [
+        {
+            "name": "cardNumber",
+            "type": "string"
+        },
+        {
+            "name": "cardExpirationDate",
+            "type": "string"
+        },
+        {
+            "name": "cardOwnerName",
+            "type": "string"
+        },
+        {
+            "name": "cardOwnerCpf",
+            "type": "string"
+        },        
+        {
+            "name": "datePayment",
+            "type": "string"
+        },
+        {
+            "name": "totalAmount",
+            "type": "double"
+        },
+        {
+            "name": "installments",
+            "type": "int"
+        },
+        {
+            "name": "installmentsAmount",
+            "type": "double"
+        }
+    ]
+}
